@@ -5,7 +5,13 @@ __elixir-pdx/macro_polo__
 
 This exercise is designed to be an introduction to Elixir's hygienic macros system which can be used for many things including some rich meta-programming.
 
-The challenge is to...
+The challenge is to create a natural language arithmetic calculator using macros. Such that instead of writing `2 + 2` you would write `two plus two`, or instead of `18 / 3` you'd write `eighteen divided by three`.
+
+###Stretch goals:
+
+- Return results from the expressions in natural language.
+- Properly handle order of operations.
+- Handle numbers all the way up to Trillions.
 
 **Prerequisites:**
 * [elixir](http://elixir-lang.org/install.html)
@@ -36,6 +42,6 @@ To compile your project simply run this from the project root:
 
 #Testing
 
-To run the test suite defined in `test/prime_test.exs` then run this from the project root:
+To run the test suite defined in `test/macro_polo_test.exs` then run this from the project root:
 
 	$ mix test
